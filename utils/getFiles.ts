@@ -17,6 +17,6 @@ const mockFiles = [
 export async function getFiles(): Promise<File[]> {
   const files = mockFiles;
   // wait for 1000ms
-  await new Promise((resolve) => setTimeout(resolve, 1000));
+  await new Promise((resolve) => setTimeout(resolve, 1200));
   return files;
 }
